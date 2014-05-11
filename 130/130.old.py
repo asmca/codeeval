@@ -20,7 +20,6 @@ for test in test_cases:
 
     ss1='^'+ss1+'$'
     re1=re.compile(ss1)
-    print ss1
     print "Yes" if re1.match(s2) else "No"
 
 
