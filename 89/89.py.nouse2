@@ -1,0 +1,40 @@
+import sys
+
+    
+class Node(object):
+    """docstring for Node"""
+    def __init__(self, data):
+        super(Node, self).__init__()
+        self.data = data
+        self.left= None
+        self.right=None
+
+def InitTree(n,root):
+    if not n:
+        return None
+    if n[0][1]>=len(n):
+        return None
+    root.left=Node(n[n[0][1]])
+    root.right=Node(n[n[0][1]+1])
+    InitTree(n[n[0][1]:],root.left)
+    InitTree(n[n[0][1]+1:],root.right)
+    return None    
+
+test_case = open(sys.argv[1],'r')
+mylist=[]
+level=1
+for test in test_case:
+    tmplist=[int(x) for x in (test.strip().split(' '))]
+    for i in tmplist:
+        mylist.append((i,level))
+    level=level+1
+test_case.close()    
+
+
+root=Node(mylist[0][0])
+
+InitTree(mylist, root)
+
+print mylist
+
+
