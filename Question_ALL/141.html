@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en" >
+        <!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+        <!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+        <!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+        <!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+
+<head>
+
+        
+        
+    
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <meta http-equiv="content-script-type" content="text/html" />
+        <meta name="description" content="A tool for auto evaluating programming challenges in C/C++/Java/Python/Ruby/PHP/Perl/Scala/Clojure/C#/Tcl/JavaScript/Haskell/Go/Bash/Lua and many more. Technical Interview questions." />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <!--[if lt IE 9]>
+         <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+ 
+        <title>CodeEval - Evaluations Made Easy</title>
+ 
+        <link rel="stylesheet" type="text/css" href="/site_media/css/style.css?v=3"/>
+        <link rel="stylesheet" type="text/css" href="/site_media/css/style-outer.css?v=3"/>
+        <link rel="stylesheet" type="text/css" href="/site_media/css/style-responsive.css?v=3"/>
+        <link rel="stylesheet" type="text/css" href="/site_media/css/fonts.css"/>
+        <!--<link rel="stylesheet" type="text/css" href="/site_media/csss/style-responsive.css"/>-->
+        <link rel="shortcut icon" href="/site_media/images/favicon.ico">
+
+ 
+        
+
+
+
+<!--<script src="/site_media/jsless.js" type="text/javascript"></script>-->
+<script type='text/javascript' src="//code.jquery.com/jquery-1.8.3.js"></script>
+    <script src="//code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+    
+
+<!--    <script type="text/javascript">
+  function switchLanguage(lang)
+  {
+    document.language_choice['language'].value = lang;
+    document.language_choice.submit();
+  }
+</script>-->
+
+<!-- google analytics -->
+<script type="text/javascript">
+    var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+    document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+    try {
+        var pageTracker = _gat._getTracker("UA-6414083-5");
+        pageTracker._trackPageview();
+    } catch(err) {}
+</script>
+
+<script type='text/javascript'> var mp_protocol = (('https:' == document.location.protocol) ? 'https://' : 'http://'); document.write(unescape('%3Cscript src="' + mp_protocol + 'api.mixpanel.com/site_media/js/api/mixpanel.js" type="text/javascript"%3E%3C/script%3E')); </script> <script type='text/javascript'> try {  var mpmetrics = new MixpanelLib('18ccfd0341807e2ba267a61a5ce186a1'); } catch(err) { null_fn = function () {}; var mpmetrics = {  track: null_fn,  track_funnel: null_fn,  register: null_fn,  register_once: null_fn, register_funnel: null_fn }; }
+
+$(document).ready(function() {
+    mpmetrics.track("Page view", { 'page': document.location });
+});
+</script>
+
+
+
+
+
+
+<!-- Start Visual Website Optimizer Asynchronous Code -->
+<script type='text/javascript'>
+    var _vwo_code=(function(){
+        var account_id=41131,
+                settings_tolerance=2000,
+                library_tolerance=2500,
+                use_existing_jquery=false,
+        // DO NOT EDIT BELOW THIS LINE
+                f=false,d=document;return{use_existing_jquery:function(){return use_existing_jquery;},library_tolerance:function(){return library_tolerance;},finish:function(){if(!f){f=true;var a=d.getElementById('_vis_opt_path_hides');if(a)a.parentNode.removeChild(a);}},finished:function(){return f;},load:function(a){var b=d.createElement('script');b.src=a;b.type='text/javascript';b.innerText;b.onerror=function(){_vwo_code.finish();};d.getElementsByTagName('head')[0].appendChild(b);},init:function(){settings_timer=setTimeout('_vwo_code.finish()',settings_tolerance);this.load('//dev.visualwebsiteoptimizer.com/j.php?a='+account_id+'&u='+encodeURIComponent(d.URL)+'&r='+Math.random());var a=d.createElement('style'),b='body{opacity:0 !important;filter:alpha(opacity=0) !important;background:none !important;}',h=d.getElementsByTagName('head')[0];a.setAttribute('id','_vis_opt_path_hides');a.setAttribute('type','text/css');if(a.styleSheet)a.styleSheet.cssText=b;else a.appendChild(d.createTextNode(b));h.appendChild(a);return settings_timer;}};}());_vwo_settings_timer=_vwo_code.init();
+</script>
+<!-- End Visual Website Optimizer Asynchronous Code -->
+
+
+<script type="text/javascript">var NREUMQ=NREUMQ||[];NREUMQ.push(["mark","firstbyte",new Date().getTime()]);</script></head>
+
+
+
+<body> 
+
+<!-- <div id="page">  -->
+
+                <!--MAIN NAVIGATION-->
+               <div id="main-navigation" role="navigation">
+                       <nav class="inner">
+                               <ul>
+                                       <!--<li><a href="/how_it_works/#hacker-deal">Hacker deals</a></li>-->
+                                       <li><a href="/how_it_works/#coding-job">Coding Jobs</a></li>
+                                       <li><a href="/how_it_works/#ranking">Rankings</a></li>
+                                       <li><a href="http://blog.codeeval.com/">Blog</a></li>
+                                       <li><a href="http://blog.codeeval.com/about/">About</a></li>
+                                       <li><a href="http://blog.codeeval.com/contact/">Contact</a></li>
+                               </ul>
+                       </nav>
+               </div>
+               <!--HEADER-->
+               <div id="header" class="clearfix" role="banner">
+               <header class="inner" >
+
+                 <!--SITE TITLE OR LOGO-->
+                       <h1 class="logo">
+                               <a title="Code Eval" href="/"><img src="/site_media/images/logo.png" title="Code Eval" /></a>
+                       </h1>
+                       
+                       <div id="secondary-navigation" role="navigation">
+                       <nav>
+                               <ul>
+                                       <li><a href="/how_it_works/" class="how-it-works">How it works</a></li>
+                                       <li><a href="/companies/" class="employers">Companies</a></li>
+                                       <!--<li><a href="#">Love</a></li>-->
+                                       <li class="login"><a href="/accounts/login/">Login</a></li>
+                               </ul>
+                       </nav>
+                       </div>
+                       
+                       <!--SITE TAGLINE-->
+
+               </header>
+               </div>
+
+       <!--CONTENT INJECTION POINT-->
+               <div id="main" class="home" role="main">
+               
+
+    <div id="container">
+        <div id="main" class="public-challenge-page" role="main">
+            <header class="public-challenge-header">
+                <div class="inner public-challenge">
+                    <h1>CHALLENGES</h1>
+                </div>
+            </header>
+            <div class="inner">
+                <div id="container">
+                    <a title="Back to home page" href="/" class="backtolist">Back to home page</a>
+                    <div id="ce-content">
+                        <ul class="public_content">
+                            <li id="requisition" class="public_content_section">
+                                <h2>Flight 370</h2>
+                                
+                                
+                                <h3>Challenge Description:</h3>
+<p>
+    You've probably heard about the tragedy that happened with one of the Malaysian airplane. Many countries support the search mission with ships, planes and rescue services.
+    Also there is a web app which allows all the people to help with the search. It's called Tomnod and you can read about it
+    <a href=http://www.tomnod.com/nod/>here</a>.
+    Thousands of volunteers are browsing the satellite images to explore the Earth and solve real-world problems. They mark the
+    items they've found with a special tags, and all of the search results regarding the Malaysian flight end up in an XML file,
+    which can be downloaded from <a href="http://d3rj3tz04ush9z.cloudfront.net/results/malaysiaairsar2014_crowdrank.kmz">here</a>.
+    Each item found and marked on the map is represented by a following XML section:
+</p>
+<div class="description-input-output"><pre>
+     &ltPlacemark id='4889783'&gt
+		&ltname&gtOil Slick ID 4889783&lt/name&gt&ltSnippet maxLines='0'&gt&lt/Snippet&gt
+		&lttype&gtOil Slick&lt/type&gt
+		&ltdescription&gt&lt![CDATA[
+			&ltimg src='https://s3.amazonaws.com/explorationlab/chips/08458a6f42a780af66c05d0ef1385558.jpg' height=400 width=400&gt&ltbr/&gt
+			&lttable width=400&gt&lttr&gt&lttd width=40%&gtCrowdRank: &ltb&gt100%&lt/b&gt&ltbr/&gtConfirmation: &ltb&gt2&lt/b&gt people&ltbr/&gt
+			&lttd align='right' valign='bottom'&gtImage &copy; DigitalGlobe 2014&ltbr&gt&ltbr&gt&lta href='http://tomnod.com/nod/challenge/mh370_indian_ocean/map/983378'&gtSee this point on &ltimg src='http://www.tomnod.com/nod/images/logo_small.png' width=100&gt&lt/a&gt
+		&lt/tr&lt/table&gt
+		]]&gt&lt/description&gt
+		&ltstyleUrl&gt#tag_type_130&lt/styleUrl&gt
+		&ltTimeStamp&gt&ltwhen&gt2014-03-27 18:14:25.234888&lt/when&gt&lt/TimeStamp&gt
+		&ltPoint&gt&ltcoordinates&gt79.834979564799994,6.97011026235&lt/coordinates&gt&lt/Point&gt
+	&lt/Placemark&gt
+    </pre>
+</div>
+<p>
+    Each item is called a placemark and it has it's "name", "type", "Point" with "coordinates", "TimeStamp" with "when" it was marked, and
+    the "description" section with the "Confirmation" in it.
+</p>
+<p>
+    In this challenge you're given a point on Earth surface represented by a longitude and latitude. Also you're given a radius in kilometers.
+    You need to print out a placemark name which was confirmed by the largest amount of people in the given area.
+</p>
+
+<h3>Input sample:</h3>
+<p>
+    Your program should accept as its first argument a path to a filename. The first N lines of the file contains the regions one per line.
+    Then there will be the XML itself starting with the following line:
+</p>
+    <pre>&lt?xml version='1.0' encoding='UTF-8'?&gt</pre>
+<p>
+    E.g.
+</p>
+
+<div class="description-input-output">70; (96.289565663600001, 4.0044008079599998)
+873; (92.749414588199997, 11.692508007600001)
+98; (105.364957907, 6.6474719752600002)
+20; (80.185393420699995, 7.5700396347199996)
+&lt?xml version='1.0' encoding='UTF-8'?&gt
+&ltkml xmlns='http://www.opengis.net/kml/2.2'&gt
+&ltDocument&gt
+
+... Document body ...
+
+&lt/Document&gt
+&lt/kml&gt
+</div>
+
+<h3>Output sample:</h3>
+
+<p>
+    For each test case print out the "name" of a placemark which was confirmed by the largest amount of people.
+    In case there is more than one placemark with the same maximum amount of confirmations, print the names ordered by
+    "TimeStamp" starting from the most recent ones, separated by comma and a single whitespace.
+    In case the "TimeStamps" are the same, print out placemarks in order of "Id".
+    Print out 'None' in case there is no placemark in a given area. E.g.
+</p>
+
+<div class="description-input-output">Other ID 4398192, Other ID 4402502, Other ID 4437554, Other ID 4437645, Oil Slick ID 4519894
+Wreckage ID 6757595
+Other ID 3835555
+None
+</div>
+<p>
+    Constraints:
+    <br>
+    R is in range [20, 3000]
+    <br>
+    N is in range [10, 15]
+    <br>
+</p>
+
+                                
+                                
+                            </li>
+
+                        </ul>
+                        <a class="login-to-submit" title="Login" href="/accounts/login/?next=/open_challenges/141/">Login to submit solution</a>
+                    </div> <!-- End Content -->
+                </div>
+            </div>
+         </div>
+    </div>
+
+
+
+               
+               </div>
+     
+       <!--FOOTER WITH OPEN BLOCK FIELD-->
+
+               <footer id="footer">
+               <div class="inner">
+                       <ul id="siteinfo">
+                                       <li>&copy; 2013 CodeEval&trade; Inc.</li>
+                                       <li><a href="http://blog.codeeval.com/about/">About Us</a></li>
+                                       <li><a href="/terms/">Terms</a></li>
+                                       <li><a href="/privacy/">Privacy Policy</a></li>    
+                                       <li><a target="_blank" href="http://getsatisfaction.com/codeeval">Support/Feedback</a></li>
+                                       <li><a target="_blank" href="http://blog.codeeval.com/">Blog</a></li>
+                                       <li><a target="_blank" href="http://twitter.com/codeeval">Twitter</a></li>
+                               </ul>
+
+                </div>
+               </footer>
+
+               <!--INJECTION POINT FOR TRACKING SCRIPTS AND USER CONTENT FROM THE CODE INJECTION TAB-->
+
+    
+    
+
+
+<script type="text/javascript" charset="utf-8">
+  var is_ssl = ("https:" == document.location.protocol);
+  var asset_host = is_ssl ? "https://s3.amazonaws.com/getsatisfaction.com/" : "http://s3.amazonaws.com/getsatisfaction.com/";
+  document.write(unescape("%3Cscript src='" + asset_host + "javascripts/feedback-v2.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+
+<script type="text/javascript" charset="utf-8">
+  var feedback_widget_options = {};
+
+  feedback_widget_options.display = "overlay";  
+  feedback_widget_options.company = "codeeval";
+  feedback_widget_options.placement = "left";
+  feedback_widget_options.color = "#222";
+  feedback_widget_options.style = "question";
+
+  var feedback_widget = new GSFN.feedback_widget(feedback_widget_options);
+</script>
+
+
+<script type="text/javascript">
+    setTimeout(function(){var a=document.createElement("script");
+        var b=document.getElementsByTagName("script")[0];
+        a.src=document.location.protocol+"//dnn506yrbagrg.cloudfront.net/pages/scripts/0014/9512.js?"+Math.floor(new Date().getTime()/3600000);
+        a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
+</script>
+
+    
+
+
+
+<script type="text/javascript">if(!NREUMQ.f){NREUMQ.f=function(){NREUMQ.push(["load",new Date().getTime()]);var e=document.createElement("script");e.type="text/javascript";e.src=(("http:"===document.location.protocol)?"http:":"https:")+"//"+"js-agent.newrelic.com/nr-100.js";document.body.appendChild(e);if(NREUMQ.a)NREUMQ.a();};NREUMQ.a=window.onload;window.onload=NREUMQ.f;};NREUMQ.push(["nrfj","beacon-4.newrelic.com","96f4f91792","2854382","YwABZkQDXUACUEJdDFpKJUdYAUdaDF0ZQwZWSwJCRhEdVwJAXlYMVRcHHEALVkQQCVRGDEMWBg==",0,15,new Date().getTime(),"","","","",""]);</script></body>
+
+
+
+
+<script src="/site_media/js/ace/src/ace.js?v3" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript" src="/site_media/js/public.js"></script>
+<script src="/site_media/js/codeeval/description_ace_editors.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+    challenge_description_input_output_editors();
+});
+</script>
+
+
+</html>
