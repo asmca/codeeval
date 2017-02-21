@@ -1,0 +1,7 @@
+[   29.162596] iwlwifi 0000:03:00.0: Radio type=0x0-0x3-0x1
+[   29.388118] iwlwifi 0000:03:00.0: L1 Enabled - LTR Disabled
+[   29.388373] iwlwifi 0000:03:00.0: L1 Enabled - LTR Disabled
+[   29.388471] iwlwifi 0000:03:00.0: Radio type=0x0-0x3-0x1
+[   29.483582] IPv6: ADDRCONF(NETDEV_UP): wlp3s0: link is not ready
+[   29.490114] IPv6: ADDRCONF(NETDEV_UP): enp0s25: link is not ready
+[   29.724310] IPv6: ADDRCONF(NETDEV_UP): enp0s25: link is not ready
