@@ -14,4 +14,3 @@ for test in test_cases:
     print sum
 
 test_cases.close()
-
