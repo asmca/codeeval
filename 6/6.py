@@ -32,7 +32,6 @@ for test in test_case:
 
     ss1,ss2=test.strip().split(';')
 
-
     print ''.join(mymax(ss1,ss2)[1])
 
 test_case.close()
